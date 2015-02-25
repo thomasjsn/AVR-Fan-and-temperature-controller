@@ -1,6 +1,6 @@
 Report       : FanTemp
 Date         : 02-25-2015
-Time         : 09:27:05
+Time         : 09:36:12
 
 Compiler     : BASCOM-AVR LIBRARY V 2.0.7.8
 Processor    : M8
@@ -8,9 +8,9 @@ SRAM         : 400 hex
 EEPROM       : 200 hex
 ROMSIZE      : 2000 hex
 
-ROMIMAGE     : 9D2 hex  -> Will fit into ROM
-ROMIMAGE     :  2514 dec
-FLASH USED   :  30  %
+ROMIMAGE     : C4E hex  -> Will fit into ROM
+ROMIMAGE     :  3150 dec
+FLASH USED   :  38  %
 BAUD         : 9600 Baud
 XTAL         : 1000000 Hz
 BAUD error   : 0.16%
@@ -21,7 +21,7 @@ S-Stacksize  : 8 hex
 S-Stackstart : 440 hex
 Framesize    : 18 hex
 Framestart   : 420 hex
-Space left   :  938  dec
+Space left   :  926  dec
 
 LCD DB7      : PORTD.0
 LCD DB6      : PORTD.1
@@ -106,6 +106,13 @@ ALARM_TIMER                      Integer           0072          114
 EEPROM_SAVE                      Integer           0074          116 
 EEPROM_FAN                       EEPROM Byte       0000          0 
 EEPROM_ALARM                     EEPROM Byte       0001          1 
+ALARM_TIMER2                     Integer           0076          118 
+FAN_SPEED                        Byte              0078          120 
+TEMP_TIMER                       Byte              0079          121 
+FAN_DELAY                        Integer           007A          122 
+FAN_DELAY2                       Integer           007C          124 
+FAN_TIMER                        Integer           007E          126 
+FAN_TIMER2                       Integer           0080          128 
 
 --------------------------------------------------------------------------------
 Constant                         Value
@@ -554,5 +561,4 @@ R30                              not used
 R31                              not used
 ADCD                             not used
 COMPARE1                         not used
-PWM1B                            not used
 
