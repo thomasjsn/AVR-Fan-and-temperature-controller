@@ -2,7 +2,7 @@
 
 Reads temperature and controls a fan using a PWM output, fan and alarm set point can be adjusted and is shown on a LCD. Uses an AVR ATmega8 microcontroller.
 
-![Fan and temperature controller with LCD](https://uctrl.io/images/medium/413)
+![Fan and temperature controller with LCD](http://i.imgur.com/5j6GT5cl.jpg)
 
 Written in basic, using [Bascom-AVR](http://www.mcselec.com/).
 
