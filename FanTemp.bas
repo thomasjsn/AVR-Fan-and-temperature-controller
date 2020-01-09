@@ -1,5 +1,5 @@
 '--------------------------------------------------------------
-'                   Thomas Jensen | uCtrl.net
+'                   Thomas Jensen | stdout.no
 '--------------------------------------------------------------
 '  file: AVR_FTU_v_2.0
 '  date: 15/03/2007
@@ -72,7 +72,7 @@ Lcd "SW v.2.0"
 Waitms 2000
 Cls
 Locate 1 , 1
-Lcd "uCtrl.net"
+Lcd "stdout.no"
 Locate 2 , 1
 Lcd "System start =)"
 Waitms 2000
